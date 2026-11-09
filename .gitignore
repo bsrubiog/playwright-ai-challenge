@@ -5,3 +5,5 @@ playwright/.last-run.json
 .env
 allure-results/
 allure-report/
+allure-report-standalone/
+*.rar
