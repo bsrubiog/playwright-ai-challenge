@@ -12,7 +12,10 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   
   // Reporte HTML detallado obligatorio
-  reporter: 'html',
+  reporter: [
+  ['html'],
+  ['allure-playwright', { outputFolder: 'allure-results' }]
+],
 
 use: {
   baseURL: process.env.BASE_URL || 'https://www.saucedemo.com',

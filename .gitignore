@@ -3,3 +3,5 @@ test-results/
 playwright-report/
 playwright/.last-run.json
 .env
+allure-results/
+allure-report/
